@@ -1,0 +1,120 @@
+/* @directives */
+
+/* @apply */
+/* .btn {
+    @apply font-bold py-2 px-4 rounded;
+}
+
+
+.btn-blue {
+    @apply bg-blue-500 focus:bg-blue-700;
+}
+
+
+.bat {
+    @apply py-2 p-4;
+}
+
+
+.bat {
+    @apply py-2;
+    @apply p-4;
+} */
+
+
+/* @layer */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/*
+@layer base{
+    .btn {
+        @apply p-3;
+    }
+}
+
+
+@layer components {
+    .btn {
+        @apply p-4;
+    }
+}
+
+
+@layer utilities {
+    .btn {
+        @apply p-5;
+    }
+    @variants ;
+} */
+
+
+
+/* @variantS  focus,hover{
+    .rotate-O{
+        transform:rotate(Odeg)
+    }
+} */
+
+
+ /* @variants hover, focus {
+        .py-21 {
+            padding: 10.05rem;
+        }
+    } */
+
+
+    /* @responsive {
+        .rotate-O{
+            transform:rotate(Odeg)
+        }
+
+        .rotate-90{
+            transform:rotate(90deg)
+        }
+    } */
+
+/*     @layer utilities {
+        .rotate-90{
+            transform:rotate(0deg)
+        }
+    
+        @variants hover, focus {
+            .rotate-90 {
+                padding: 10.05rem;
+            }
+        }
+    } */
+
+
+    /* Functions; SCREEN & THEME */
+    /* screen() */
+/* 
+    @media screen(xl){
+        .rotate-0{
+            transform: rotate(0deg);
+        }
+    } */
+
+
+/* @screen sm{
+    .rod {
+        transform: rotate(0deg)
+    } 
+} */
+
+
+/* theme */
+ 
+/* .content-area{
+    height: theme('height.60');
+} */
+
+/* .content-area{
+    height: theme('spacing.40');
+} */
+
+.content-area{
+    height: theme('spacing[2.5]');
+}
+

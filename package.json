@@ -1,0 +1,14 @@
+{
+  "name": "directives",
+  "version": "1.0.0",
+  "description": "how directives work in Tailwindcss",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i build/index.css -o dist/output.css --watch"
+  },
+  "author": "Lawal Rashidi",
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^3.0.24"
+  }
+}
